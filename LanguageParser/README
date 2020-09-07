@@ -1,1 +1,2 @@
-Readme.
+This project written in java is a basic language parser that takes equations with a character and calculates the value of the expresion
+and displays the final value.
