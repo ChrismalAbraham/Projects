@@ -1,0 +1,250 @@
+
+body {
+    background-color: #EEE;
+}
+
+#container {
+    background-color: rgb(161, 228, 161);
+    width: 1200px;
+    height: 1100px;
+    padding: 10px;
+    padding-top: 20px;
+    
+
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+
+#innercontainer1 {
+    background-color: white;
+    position: relative;
+    width: 720px;
+    height: 200px;
+    bottom: -60px;
+    left: -200px;
+    border-radius: 10px;
+    
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#innercontainer2 {
+    position: relative;
+    background-color: white;
+    width: 700px;
+    height: 650px;
+    bottom: 320px;
+    left: -200px;
+    padding: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#innercontainer3 {
+    position: relative;
+    background-color: rgb(187, 243, 243);
+    width: 300px;
+    height: 420px;
+    left: 370px;
+    bottom: 140px;
+    border-radius: 10px;
+
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#innercontainer4 {
+    position: relative;
+    background-color: white;
+    width: 280px;
+    height: 300px;
+    bottom: 770px;
+    right: -370px;
+    transition: 0.5s;
+    padding: 10px;
+   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#innercontainer4:hover > #innercontainner4{
+    height: 400px;
+    padding: 0 6px;
+}
+
+.icon{
+    width: 90px;
+    height: 90px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+}
+
+.name {
+    font-size: 22px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.weather {
+    font-size: 22px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.temp {
+    font-size: 22px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.humidity {
+    font-size: 22px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.windspeed {
+    font-size: 22px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#header {
+    background-color: rgb(46, 131, 46);
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    
+}
+
+#content {
+    padding: 10px;
+}
+
+#nav {
+    width: 180px;
+    float: left;
+}
+
+#main {
+    width: 300px;
+    float: left;
+}
+
+#info {
+    width: 200px;
+    float: right;
+}
+
+#footer {
+    clear: both; /* has the footer clear any floatig elements before displaying */
+    text-align: right;
+    text-align: bottom;
+    position: relative;
+    bottom: 600px;
+}
+
+
+.search-box{
+    position: absolute;
+    top: 14%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-pic{
+    background: rgb(0, 90, 0);
+    color: #ffffff;
+}
+
+.search-box2{
+    position: absolute;
+    top: 5%;
+    transform: translate(50%,50%);
+    background: #ffffff;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    right: 23%;
+}
+.search-box2:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box2:hover > .search-pic{
+    background: rgb(0, 90, 0);
+    color: #ffffff;
+}
+
+.search-pic{
+    color: rgb(0, 90, 0);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+#searchbutton {
+    position: relative;
+    
+}
+
+#infocontainerbackground{
+    background-color: rgb(161, 228, 161);
+    width: 1200px;
+    height: 600px;
+    padding: 10px;
+    padding-top: 20px;
+    
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#infocontainer{
+    background-color: white;
+    position: relative;
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    align-self: center;
+    padding: 20px;
+    
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#mainpagelink {
+    position: relative;
+    right: -740px;
+}
