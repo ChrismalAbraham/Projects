@@ -227,7 +227,7 @@ void Game::play(char board[20],Player gamers[2], int numberOfPlayers,char cardPi
     while(true)
     {
          turn = taketurn(cardPile);
-           gamers[0].setPlayerName('A');
+           //gamers[0].setPlayerName('A');
          if (turn == 'S')
         {
         cout << "Player "<< gamers[currentPlayer].getPlayerName() << " selected " << turn << endl;
