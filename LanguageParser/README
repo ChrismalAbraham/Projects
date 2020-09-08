@@ -1,6 +1,9 @@
 This project written in java is a basic language parser that takes equations with a character and calculates the value of the expresion
 and displays the final value.
 
+If necessary use the online compiler pasted below to compile the project.
+https://www.jdoodle.com/online-java-compiler/
+
 Sample Input:
 x = 5 * 7 + (1 + 3);
 
