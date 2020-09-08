@@ -1,4 +1,5 @@
 This folder contains projects files for my website which uses onlines APIs to extract and display information from a biology database
-and a weather database by using a search bar.
+and a weather database by using a search bar. The first search bar on the left works searches the biology database and the second search bar on the right
+searches the weather database.
 
 Download the files and open index.html to use the website.
