@@ -1,1 +1,7 @@
-This Project is a boardgame that runs itself and determines who is the winner.
+This Project is a boardgame that runs itself and determines who is the winner. At the beginning of the game you determine the number of players,
+the size of the board, how many obstacles are on the board denoated by the character 'X', how many GoAgains are on the board denoted by the character 'O',
+and at what maximum position on the board would the final obstacle be. After entering all the variables the program will simulate the game and determine
+who is the winner by each character getting a random draw to advance in a round based game.
+
+If you don't have a compiler, please test the code using this online compiler.
+https://www.onlinegdb.com/online_c++_compiler
