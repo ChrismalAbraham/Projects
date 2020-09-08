@@ -106,9 +106,9 @@ void Game::startGame()
 
      for (int i = 0; i < numberOfPlayers; i++)
         {
-       cout << "Enter Name of Player: " ;
-    cin >> playerName;
-     gamers[i].setPlayerName(playerName);
+      cout << "Enter Character of Player " << i + 1 << ": " ;    
+      cin >> playerName;
+      gamers[i].setPlayerName(playerName);
     }
    restartboard(board,numberOfPlayers,sizeOfBoard,numberOfObstacles,obstacleMaxPos,numberOfGoAgains);
     play(board,gamers,numberOfPlayers,cardPile,sizeOfBoard);
