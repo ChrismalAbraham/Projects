@@ -179,7 +179,7 @@ public class ExpEvaluator{
         for ( int i = 0; i < 10; i++)
         {
             Scanner readString = new Scanner(System.in);  
-            System.out.println("Enter Expresion in the form char = expresion; char = expresion; ");
+            System.out.println("Enter Expresion in the form" + "\n" + "char = expresion; char = expresion; ";
             String expresion = readString.nextLine();  
             int stringlen = expresion.length();
             
